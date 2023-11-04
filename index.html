@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <title>Calculadora</title>
+</head>
+
+<body>
+
+  <div class="calculator-container">
+    <div class="calculator">
+
+      <!-- Campos de entrada -->
+      <input type="text" id="input1" placeholder="Operando 1">
+      <input type="text" id="input2" placeholder="Operando 2">
+
+      <!-- Botones de operación -->
+      <button onclick="add()">+</button>
+      <button onclick="subtract()">-</button>
+      <button onclick="multiply()">*</button>
+      <button onclick="divide()">/</button>
+
+      <!-- Botón de borrar -->
+      <button class="clear" onclick="clearFields()">C</button>
+
+      <!-- Campo de resultado -->
+      <input type="text" id="result" placeholder="Resultado" disabled>
+
+      <script src="index.js"></script>
+
+    </div>
+  </div>
+
+</body>
+
+</html>

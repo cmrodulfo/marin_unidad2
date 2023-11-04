@@ -1,0 +1,68 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+
+  /* Estilos para el contenedor de la calculadora */
+  .calculator-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  /* Estilos para la calculadora */
+  .calculator {
+    width: 50%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+  }
+
+  /* Estilos para los campos de entrada */
+  input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  /* Estilos para los botones de operación */
+  button {
+    background-color: #499ad1; /* Green */
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  /* Estilos para el botón de operación al pasar el cursor */
+  button:hover {
+      background-color: rgb(70, 117, 187); /* Green */
+  }
+  
+  /* Estilos para el botón de igual al pasar el cursor */
+  .equal:hover {
+      background-color: #555555; /* Dark gray */
+  }
+
+  
